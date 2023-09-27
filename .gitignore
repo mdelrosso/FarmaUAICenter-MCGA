@@ -396,3 +396,36 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+# Bin and obj directories
+**/bin/
+**/obj/
+
+# User-specific files and directories
+*.user
+*.suo
+*.userprefs
+
+# Visual Studio specific files
+.vs
+*.sln.ide
+*.suo
+
+
+# Compiled DLLs and executables
+
+*.dll
+*.exe
+
+# Logs and temporary files:
+
+*.log
+*.tmp
+
+
+# IDE-specific files
+
+.vscode/
+*.vssettings
+*.code-workspace
