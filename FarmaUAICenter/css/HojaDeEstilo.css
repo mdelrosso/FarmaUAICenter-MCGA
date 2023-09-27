@@ -1,0 +1,109 @@
+﻿body {
+    background: url("../img/tiendav3.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+/*Banner*/
+    #logo
+ {          
+   height:134px;
+    width: 269px;
+}  
+#sec-logo{
+    text-align:left;
+    padding:10px;
+}
+
+#b1{
+    
+}
+
+#b2{
+
+}
+
+#sec-botones{
+    text-align:right;
+    padding:20px;
+}
+#topContent {
+    background-color: #ffffff !important;
+    min-height: 70px;
+}
+
+#centerContent {
+    border: none;
+    background-color: #81B8D0 !important;
+}
+
+.menu input {
+    background-color: #81B8D0 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 20px;
+    color: white !important;
+    border: none;
+}
+.menu input:hover {
+   opacity: 0.7;
+}
+
+
+.Login{
+    text-align: right !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 16px;
+}
+.Loginbtn{
+    text-align: right !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 16px;
+    color: white;
+}
+
+.formulariocontent{
+    padding: 80px;
+}
+
+.formulario{
+    background: url("../img/fondo_transparente.png");
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.formulario h1 {
+     font-size: 35px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     color: #FF7B17;
+}
+
+.formulario p {
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: black;
+}
+
+.formulario input{
+    margin: 5px;
+    width: 100%;
+}
+
+.formulario img{
+    width:100%;
+    vertical-align: middle;
+}
+
+
+#tituloreg{
+    text-align:center;
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#footerContent {
+
+}
+ /*Institucion.aspx*/

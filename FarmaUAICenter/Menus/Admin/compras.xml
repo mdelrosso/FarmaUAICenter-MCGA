@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Escribir datos en XML-->
+<Compras>
+  <DatosCompra>
+    <NroFactura>B001001</NroFactura>
+    <cant_Producto>3</cant_Producto>
+    <Precio>$ 5800</Precio>
+  </DatosCompra>
+   <DatosCompra>
+    <NroFactura>B001002</NroFactura>
+    <cant_Producto>3</cant_Producto>
+    <Precio>$ 8000</Precio>
+  </DatosCompra>
+ <DatosCompra>
+    <NroFactura>B001003</NroFactura>
+    <cant_Producto>2</cant_Producto>
+    <Precio>$ 6300</Precio>
+  </DatosCompra>
+<DatosCompra>
+    <NroFactura>B001004</NroFactura>
+    <cant_Producto>4</cant_Producto>
+    <Precio>$ 7890</Precio>
+  </DatosCompra>
+<DatosCompra>
+    <NroFactura>B001005</NroFactura>
+    <cant_Producto>1</cant_Producto>
+    <Precio>$ 2000</Precio>
+  </DatosCompra>
+</Compras>

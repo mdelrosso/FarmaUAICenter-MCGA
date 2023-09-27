@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Escribir datos en XML-->
+<Promos>
+	<DatosPromos>
+		<Nombre>Paracetamol 500</Nombre>
+		<Producto>3 X</Producto>
+		<Precio>$ 3000</Precio>
+	</DatosPromos>
+	<DatosPromos>
+		<Nombre>Paracetamol 1000</Nombre>
+		<Producto>70% Off</Producto>
+		<Precio>$ 2240</Precio>
+	</DatosPromos>
+		<DatosPromos>
+		<Nombre>Omeprazol 20</Nombre>
+		<Producto>50% Off</Producto>
+		<Precio>$ 1500</Precio>
+	</DatosPromos>
+</Promos>

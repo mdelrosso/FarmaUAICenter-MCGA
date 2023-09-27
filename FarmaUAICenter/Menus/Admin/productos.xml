@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--Escribir datos en XML-->
+<Productos>
+	<DatosProductos>
+		<Nombre>Paracetamol 500</Nombre>
+		<Descripcion>500 Mg</Descripcion>
+		<Precio>$ 1850</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Paracetamol 1000</Nombre>
+		<Descripcion>1 G</Descripcion>
+		<Precio>$ 3200</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Ibuprofeno</Nombre>
+		<Descripcion>400 Mg</Descripcion>
+		<Precio>$ 1900</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Ibuprofeno Forte</Nombre>
+		<Descripcion>600 Mg</Descripcion>
+		<Precio>$ 2699</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Omeprazol 20</Nombre>
+		<Descripcion>20 Mg</Descripcion>
+		<Precio>$ 3000</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Amoxicilina Jarabe</Nombre>
+		<Descripcion>125mg 5ml</Descripcion>
+		<Precio>$ 2500</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Loratadina</Nombre>
+		<Descripcion>10 Mg</Descripcion>
+		<Precio>$ 1000</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Aspirina</Nombre>
+		<Descripcion>81 Mg</Descripcion>
+		<Precio>$ 1200</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Prednisona</Nombre>
+		<Descripcion>20 Mg</Descripcion>
+		<Precio>$ 2300</Precio>
+	</DatosProductos>
+	<DatosProductos>
+		<Nombre>Diphenhydramine</Nombre>
+		<Descripcion>25Mg 5ml</Descripcion>
+		<Precio>$ 1560</Precio>
+	</DatosProductos>
+</Productos>

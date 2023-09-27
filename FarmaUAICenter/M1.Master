@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="M1.master.cs" Inherits="FarmaUAICenter.M1" %>
+
+<%@ Register src="~/MessageBox/MessageBoxUserControl.ascx" tagname="MessageBoxUserControl" tagprefix="uc1" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/HojaDeEstilo.css" rel="Stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="img/Icono.ico" rel="icon" type="image/png"/>
+    <title>Farma UAI Center</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div class="col-md-12" id="topContent">
+        <uc1:MessageBoxUserControl ID="MessageBoxUserControl1" runat="server" />
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+        <asp:ContentPlaceHolder ID="ContentPlaceTop" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="col-md-12"></div>
+
+    </div>
+    <div class="col-md-12" id="centerContent">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+        <asp:ContentPlaceHolder ID="ContentPlaceCenter" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="col-md-12" id="footerContent">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+        <asp:ContentPlaceHolder ID="ContentPlaceFooter" runat="server"></asp:ContentPlaceHolder>
+            <asp:Literal ID="literalMensajes" runat="server"></asp:Literal>
+        </div>
+        <div class="col-md-1"></div>
+        <div align="center">
+    <br />
+
+</div>
+    </div>
+    </form>
+</body>
+</html>
