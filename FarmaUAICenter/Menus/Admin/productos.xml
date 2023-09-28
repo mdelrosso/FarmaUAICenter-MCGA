@@ -2,53 +2,53 @@
 <!--Escribir datos en XML-->
 <Productos>
 	<DatosProductos>
-		<Nombre>Paracetamol 500</Nombre>
-		<Descripcion>500 Mg</Descripcion>
+		<Farmaco>Paracetamol 500</Farmaco>
+		<Presentacion>500 Mg</Presentacion>
 		<Precio>$ 1850</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Paracetamol 1000</Nombre>
-		<Descripcion>1 G</Descripcion>
+		<Farmaco>Paracetamol 1000</Farmaco>
+		<Presentacion>1 G</Presentacion>
 		<Precio>$ 3200</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Ibuprofeno</Nombre>
-		<Descripcion>400 Mg</Descripcion>
+		<Farmaco>Ibuprofeno</Farmaco>
+		<Presentacion>400 Mg</Presentacion>
 		<Precio>$ 1900</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Ibuprofeno Forte</Nombre>
-		<Descripcion>600 Mg</Descripcion>
+		<Farmaco>Ibuprofeno Forte</Farmaco>
+		<Presentacion>600 Mg</Presentacion>
 		<Precio>$ 2699</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Omeprazol 20</Nombre>
-		<Descripcion>20 Mg</Descripcion>
+		<Farmaco>Omeprazol 20</Farmaco>
+		<Presentacion>20 Mg</Presentacion>
 		<Precio>$ 3000</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Amoxicilina Jarabe</Nombre>
-		<Descripcion>125mg 5ml</Descripcion>
+		<Farmaco>Amoxicilina Jarabe</Farmaco>
+		<Presentacion>125mg 5ml</Presentacion>
 		<Precio>$ 2500</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Loratadina</Nombre>
-		<Descripcion>10 Mg</Descripcion>
+		<Farmaco>Loratadina</Farmaco>
+		<Presentacion>10 Mg</Presentacion>
 		<Precio>$ 1000</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Aspirina</Nombre>
-		<Descripcion>81 Mg</Descripcion>
+		<Farmaco>Aspirina</Farmaco>
+		<Presentacion>81 Mg</Presentacion>
 		<Precio>$ 1200</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Prednisona</Nombre>
-		<Descripcion>20 Mg</Descripcion>
+		<Farmaco>Prednisona</Farmaco>
+		<Presentacion>20 Mg</Presentacion>
 		<Precio>$ 2300</Precio>
 	</DatosProductos>
 	<DatosProductos>
-		<Nombre>Diphenhydramine</Nombre>
-		<Descripcion>25Mg 5ml</Descripcion>
+		<Farmaco>Diphenhydramine</Farmaco>
+		<Presentacion>25Mg 5ml</Presentacion>
 		<Precio>$ 1560</Precio>
 	</DatosProductos>
 </Productos>

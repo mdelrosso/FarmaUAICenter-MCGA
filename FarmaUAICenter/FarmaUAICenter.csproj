@@ -114,7 +114,6 @@
     <Content Include="img\Calendar.png" />
     <Content Include="img\fondo_transparente.png" />
     <Content Include="img\homeFooter.png" />
-    <Content Include="img\Icono.ico" />
     <Content Include="img\Logo.jpg" />
     <Content Include="img\tiendav3.jpg" />
     <Content Include="img\Usuario.png" />
@@ -134,7 +133,7 @@
     <Content Include="Menus\Cliente\MisCompras.aspx" />
     <Content Include="Menus\Cliente\Productos.aspx" />
     <Content Include="Menus\Visitante\Contacto.aspx" />
-    <Content Include="Menus\Visitante\Sobre Nosotros.aspx" />
+    <Content Include="Menus\Visitante\Acerca de.aspx" />
     <Content Include="Menus\Visitante\Productos.aspx" />
     <Content Include="Menus\Visitante\Promos.aspx" />
     <Content Include="MessageBox\CSS\MessageBox.css" />
@@ -145,7 +144,6 @@
     <Content Include="MessageBox\MessageBoxUserControl.ascx" />
     <Content Include="packages.config" />
     <Content Include="M1.Master" />
-    <Content Include="WebServicePromo.asmx" />
     <None Include="Connected Services\ServiceReference1\WebServicePromo.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -299,12 +297,12 @@
     <Compile Include="Menus\Visitante\Contacto.aspx.designer.cs">
       <DependentUpon>Contacto.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Menus\Visitante\Sobre Nosotros.aspx.cs">
-      <DependentUpon>Sobre Nosotros.aspx</DependentUpon>
+    <Compile Include="Menus\Visitante\Acerca de.aspx.cs">
+      <DependentUpon>Acerca de.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Menus\Visitante\Sobre Nosotros.aspx.designer.cs">
-      <DependentUpon>Sobre Nosotros.aspx</DependentUpon>
+    <Compile Include="Menus\Visitante\Acerca de.aspx.designer.cs">
+      <DependentUpon>Acerca de.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menus\Visitante\Productos.aspx.cs">
       <DependentUpon>Productos.aspx</DependentUpon>
@@ -333,10 +331,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vistas\LoginVista.cs" />
     <Compile Include="Vistas\UsuarioVista.cs" />
-    <Compile Include="WebServicePromo.asmx.cs">
-      <DependentUpon>WebServicePromo.asmx</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -353,6 +347,10 @@
     <ProjectReference Include="..\Helpers\Helpers.csproj">
       <Project>{3c780fcd-f929-40f1-92d4-833c2ac9dc11}</Project>
       <Name>Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebServiceApplication\WebServiceApplication.csproj">
+      <Project>{bfd16316-9430-48ee-b581-37aef2e5b4f1}</Project>
+      <Name>WebServiceApplication</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

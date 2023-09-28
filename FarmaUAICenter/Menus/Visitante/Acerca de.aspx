@@ -1,34 +1,40 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/M1.Master"  CodeBehind="Sobre Nosotros.aspx.cs" Inherits="FarmaUAICenter.Menus.Visitante.Institucional" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/M1.Master"  CodeBehind="Acerca de.aspx.cs" Inherits="FarmaUAICenter.Menus.Visitante.Institucional" %>
 <%@ MasterType VirtualPath="~/M1.Master" %> 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceTop" runat="server">
-    <div class="col-md-12">
-    <div class="col-md-3" id="sec-logo">
-        <img src="../../img/Logo.jpg" alt="logo1"/>
-    </div>
-    <div class="col-md-9" id="sec-botones">
 
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceTop" runat="server">
+
+    <div class="col-md-12">
+    <div class="col-md-2" id="sec-logo">
+        <img src="../../img/Logo.png" id="logo">
+    </div>
+        <div class="col-md-3" >
+            <h3 style="font-weight:bold;margin-bottom:2px">FARMA UAI CENTER</h3>
+            <b>Todo en un solo lugar</b>
+        </div>
+    <div class="col-md-6" id="sec-botones">
+        <asp:Button ID="b1" runat="server" Text="Volver al inicio" OnClick="Back_Click" CssClass="btn btn-secondary"/>
      </div>
    </div>
 
-
 </asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceCenter" runat="server">
+      
+    <div class="col-md-12 menu">
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+    </div>
 
 </asp:Content>
+
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceFooter" runat="server">
-    <br />
-    <div class="col-md-1">
-    </div>
-    <div class="col-md-10" style="color: white;background-color:steelblue;">
-        <h1 style="color: white;background-color:steelblue;text-align:center" dir="ltr">Sobre nosotros</h1>     
-        <br />
-        <div class="col-md-12" style="display: flex; justify-content: center;">
-            <img src="../../img/Logo.jpg" alt="Logo" />
-        </div>
-        <div class="col-md-10" style="color: white;background-color:steelblue;">
-            <b>¿Quienes somos?</b>
+   
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <p></p>
+            <h1 style="text-align:center"><b>¿Quienes somos?</b></h1>
+            <p></p>
             <p>En FarmaUAICenter trabajamos con excelencia y responsabilidad para brindar cada día servicios farmacéuticos de máxima calidad 
 
             a más de diez millones de personas.<br />
@@ -60,14 +66,6 @@
             responsabilidad social con reconocidas instituciones nacionales e internacionales.</p><br />
 
         </div>
-    </div>
-    <div class="col-md-12" style="display: flex; justify-content: center;">
-        <br/>
-        <a href="../../Default.aspx">
-            Volver
-            <br/>
-            <img src="../../img/Back.png"   width="52px" height="52px"/>
-        </a>
     </div>
 
 </asp:Content>

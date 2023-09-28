@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{27632CD0-93D7-492A-A144-57037E24F583}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{3C780FCD-F929-40F1-92D4-833C2AC9DC11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaUAICenter", "FarmaUAICenter\FarmaUAICenter.csproj", "{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceApplication", "WebServiceApplication\WebServiceApplication.csproj", "{BFD16316-9430-48EE-B581-37AEF2E5B4F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

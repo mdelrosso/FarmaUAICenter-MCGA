@@ -1,27 +1,16 @@
-﻿body {
-    background: url("../img/tiendav3.jpg");
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+﻿html body {
+    /*/background: #E3F6FD;*/
+    background: #FFFFFF;
 }
 /*Banner*/
     #logo
  {          
-   height:134px;
-    width: 269px;
+   height:60px;
+    width: 60px;
 }  
 #sec-logo{
     text-align:left;
     padding:10px;
-}
-
-#b1{
-    
-}
-
-#b2{
-
 }
 
 #sec-botones{
@@ -35,11 +24,11 @@
 
 #centerContent {
     border: none;
-    background-color: #81B8D0 !important;
+    background-color: #4682B4 !important;
 }
 
 .menu input {
-    background-color: #81B8D0 !important;
+    background-color: #4682B4 !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     font-size: 20px;
     color: white !important;
@@ -49,8 +38,7 @@
    opacity: 0.7;
 }
 
-
-.Login{
+.Login {
     text-align: right !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     font-size: 16px;
@@ -103,7 +91,4 @@
 
 }
 
-#footerContent {
-
-}
- /*Institucion.aspx*/
+/*Institucion.aspx*/

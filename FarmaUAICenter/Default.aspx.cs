@@ -56,6 +56,7 @@ namespace FarmaUAICenter
                 Text = textoBoton,
                 PostBackUrl = "Menus/Visitante/" + textoBoton + ".aspx"
             };
+            //Carga los links del menú
             Master.FindControl("ContentPlaceCenter").FindControl("PlaceHolder1").Controls.Add(_button1);
             _button1 = null;
         }
@@ -64,12 +65,12 @@ namespace FarmaUAICenter
         {
             DarEstiloABotones();
             b1 = (Button)Master.FindControl("ContentPlaceTop").FindControl("b1");
-            b1.Text = "Loguearse";
+            b1.Text = "Ingresar";
             b1.Visible = true;
             b2 = (Button)Master.FindControl("ContentPlaceTop").FindControl("b2");
             b2.Text = "Registrarse";
             b2.Visible = true;
-            InicializarBoton("Sobre Nosotros");
+            InicializarBoton("Acerca de");
             InicializarBoton("Productos");
             InicializarBoton("Promos");
             InicializarBoton("Contacto");
@@ -81,7 +82,7 @@ namespace FarmaUAICenter
             b1 = (Button)Master.FindControl("ContentPlaceTop").FindControl("b1");
             b1.Visible = false;
             b2 = (Button)Master.FindControl("ContentPlaceTop").FindControl("b2");
-            b2.Text = "Desloguearse";
+            b2.Text = "CerrarSesion";
             b2.Visible = true;
         }
 
@@ -96,7 +97,7 @@ namespace FarmaUAICenter
             {
                 Response.Redirect("Account/Registro.aspx");
             }
-            else if (this.b2.Text == "Desloguearse")
+            else if (this.b2.Text == "CerrarSesion")
             {
                 LogOut();
                 BLL.Usuario bllUsuario = new BLL.Usuario();

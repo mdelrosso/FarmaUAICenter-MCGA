@@ -3,47 +3,39 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceTop" runat="server">
-<div class="col-md-12">
-    <div class="col-md-3" id="sec-logo">
-        <img src="/../../img/Logo.jpg" id="logo">
+    <div class="col-md-12">
+    <div class="col-md-2" id="sec-logo">
+        <img src="../../img/Logo.png" id="logo">
     </div>
-    <div class="col-md-9" id="sec-botones">
-
+        <div class="col-md-3" >
+            <h3 style="font-weight:bold;margin-bottom:2px">FARMA UAI CENTER</h3>
+            <b>Todo en un solo lugar</b>
+        </div>
+    <div class="col-md-6" id="sec-botones">
+        <asp:Button ID="b1" runat="server" Text="Volver al inicio" OnClick="Back_Click" CssClass="btn btn-secondary"/>
      </div>
    </div>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceCenter" runat="server">        
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceCenter" runat="server">
+    
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceFooter" runat="server">
 
-    <br />
-    <div class="col-md-1">
-    </div>
-    <div style='background-color:steelblue;'>
-        <h1 style="text-align:center;color: white;">Contactanos!</h1>     
-        <br />
-        <%--<div class="col-md-3">
-            <img src="/../../img/Contacto.png" alt="contacto1"/>
-        </div>--%>
-        <div style="background-color:steelblue;color: white;">
+    <div class="col-md-12">
+        <div class="col-md-12">
+        <p></p>
+        <h1 style="text-align:center"><b>Contactanos !</b></h1>
+        <p></p>
+        
+        <div>
             <b>Estamos comprometidos con vos todo el tiempo. Escucharte nos va ayudar a hacerlo mejor.</b><br /><br />
             <p>Buscanos en la FarmaUAICenter, seguro podemos ayudarte!<br />
 
             <br />
-            Escribinos a: <a style="color:white" href="mailto:Consultas@farmauaicenter.com?Subject=Consulta" target="_top">Consultas@farmauaicenter.com</a><br /><br />  
+            Escribinos a: <a href="mailto:Consultas@farmauaicenter.com?Subject=Consulta" target="_top">Consultas@farmauaicenter.com</a><br /><br />  
         </div>
         
     </div>
-    <div class="col-md-1">
-    </div>
-    <div align="center">
-    <br/>
-        <a href="../../Default.aspx">
-            Volver
-            <br/>
-            <img src="../../img/Back.png"   width="52px" height="52px"/>
-        </a>
-
     </div>
       
 </asp:Content>
