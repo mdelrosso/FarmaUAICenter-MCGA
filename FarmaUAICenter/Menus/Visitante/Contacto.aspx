@@ -28,7 +28,7 @@
         <p></p>
         
         <div>
-            <b>Estamos comprometidos con vos todo el tiempo. Escucharte nos va ayudar a hacerlo mejor.</b><br /><br />
+            <b>Estamos comprometidos con vos todo el tiempo. Escucharte nos ayuda a hacerlo mejor.</b><br /><br />
             <p>Buscanos en la FarmaUAICenter, seguro podemos ayudarte!<br />
 
             <br />

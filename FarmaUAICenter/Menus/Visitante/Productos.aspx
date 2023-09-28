@@ -22,6 +22,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceFooter" runat="server">
     <p></p>
     <h4 style="font-weight:bold;text-align:center;font-style:italic;color:red">El listado de fármacos disponibles es publicado desde un archivo XML</h4>
+    <div style="float:right"><span style="background-color:#90EE90"><b>Productos en promocion</b></span></div>
     <hr style="border-color:black"/>
         <asp:Panel ID="PanelGeneral" runat="server" CssClass="custom-table">
               <asp:GridView ID="GridView1" runat="server" class="table table-bordered table-hover table-striped" OnRowDataBound="GridView1_RowDataBound">

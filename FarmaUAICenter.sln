@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaUAICenter", "FarmaUAICenter\FarmaUAICenter.csproj", "{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceApplication", "WebServiceApplication\WebServiceApplication.csproj", "{BFD16316-9430-48EE-B581-37AEF2E5B4F1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +39,6 @@ Global
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D3D4B2-FB32-47FB-8CB1-7A2240571ED0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFD16316-9430-48EE-B581-37AEF2E5B4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

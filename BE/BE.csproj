@@ -50,6 +50,7 @@
     <Compile Include="Patente.cs" />
     <Compile Include="Perfil.cs" />
     <Compile Include="PerfilAbstracto.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Promo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

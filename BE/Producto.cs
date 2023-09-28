@@ -12,5 +12,7 @@
 
         public float Precio { get; set; }
 
+        public decimal Descuento { get; set; }
+
     }
 }

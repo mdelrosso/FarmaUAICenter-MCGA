@@ -29,7 +29,7 @@ namespace FarmaUAICenter.Menus.Visitante
                 string promo = DataBinder.Eval(e.Row.DataItem, "Farmaco").ToString();
 
                 // Aplica tu condición personalizada aquí. Por ejemplo, cambia el color de fondo de la fila si el estado es "Aprobado".
-                if (promo == "Ibuprofeno" || promo == "Aspirina")
+                if (promo == "Ibuprofeno" || promo == "Aspirina" || promo == "Amoxicilina Jarabe")
                 {
                     e.Row.BackColor = System.Drawing.Color.LightGreen;
                 }

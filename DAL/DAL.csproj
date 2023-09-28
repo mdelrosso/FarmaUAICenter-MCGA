@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Bitacora.cs" />
     <Compile Include="Busqueda.cs" />
+    <Compile Include="PromosDAL.cs" />
     <Compile Include="Conexion\AccesoBd.cs" />
     <Compile Include="Compra.cs" />
     <Compile Include="Detalle.cs" />

@@ -70,7 +70,7 @@ namespace FarmaUAICenter
             b2 = (Button)Master.FindControl("ContentPlaceTop").FindControl("b2");
             b2.Text = "Registrarse";
             b2.Visible = true;
-            InicializarBoton("Acerca de");
+            InicializarBoton("Nosotros");
             InicializarBoton("Productos");
             InicializarBoton("Promos");
             InicializarBoton("Contacto");

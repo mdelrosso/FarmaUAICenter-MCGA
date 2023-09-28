@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/M1.Master"  CodeBehind="Acerca de.aspx.cs" Inherits="FarmaUAICenter.Menus.Visitante.Institucional" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/M1.Master"  CodeBehind="Nosotros.aspx.cs" Inherits="FarmaUAICenter.Menus.Visitante.Institucional" %>
 <%@ MasterType VirtualPath="~/M1.Master" %> 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -37,9 +37,9 @@
             <p></p>
             <p>En FarmaUAICenter trabajamos con excelencia y responsabilidad para brindar cada día servicios farmacéuticos de máxima calidad 
 
-            a más de diez millones de personas.<br />
+            a más de diez millones de personas.</p>
 
-            Desde nuestra fundación, en 1997, trajimos a la Argentina las mejores prácticas del mundo en el servicio a pacientes y consumidores 
+            <p>Desde nuestra fundación, en 1997, trajimos a la Argentina las mejores prácticas del mundo en el servicio a pacientes y consumidores 
 
             en temas de salud. Centrados en superar sus expectativas, ofrecemos atención personalizada en nuestras farmacias, mediante experimentados 
 
@@ -51,19 +51,19 @@
 
             gama de medicamentos de marca y sus genéricos, tanto prescriptivos como de venta libre. Además, trabajamos con más de 60 Obras Sociales, 
 
-            Prepagas y Coseguros de prestigio.<br />
+            Prepagas y Coseguros de prestigio.</p>
 
-            En FarmaUAICenter empleamos a más de 4.500 personas en todo el país. Con 190 farmacias distribuidas en 13 provincias, es actualmente la 
+            <p>En FarmaUAICenter empleamos a más de 4.500 personas en todo el país. Con 190 farmacias distribuidas en 13 provincias, es actualmente la 
 
             principal empresa de venta minorista de medicamentos y la que nuclea al mayor número de profesionales farmacéuticos. Farmacias Curarte es una 
 
             compañía comprometida con la calidad y la excelencia del servicio al cliente. Lleva invertidos en Argentina más de 400 millones de pesos 
 
-            desde su fundación hace ya más de 15 años.<br />
+            desde su fundación hace ya más de 15 años.</p>
 
-            Nuestra compañía está fuertemente involucrada con el desarrollo del sector y de la comunidad, llevando adelante proyectos de 
+            <p>Nuestra compañía está fuertemente involucrada con el desarrollo del sector y de la comunidad, llevando adelante proyectos de 
 
-            responsabilidad social con reconocidas instituciones nacionales e internacionales.</p><br />
+            responsabilidad social con reconocidas instituciones nacionales e internacionales.</p>
 
         </div>
     </div>

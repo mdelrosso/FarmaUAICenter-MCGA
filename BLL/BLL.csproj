@@ -52,6 +52,7 @@
     <Compile Include="Patente.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Promo.cs" />
+    <Compile Include="PromosBLL.cs" />
     <Compile Include="Proveedor.cs" />
     <Compile Include="Seguridad\Auditoria\Bitacora.cs" />
     <Compile Include="Seguridad\DigitoVerificador\DigitoVerificador.cs" />

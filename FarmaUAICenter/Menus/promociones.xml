@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productos>
+	<producto>
+		<Farmaco>Ibuprofeno 500</Farmaco>
+		<PrecioNormal>1900</PrecioNormal>
+		<Precio>1150</Precio>
+		<Descuento>750</Descuento>
+	</producto>
+	<producto>
+		<Farmaco>Amoxicilina Jarabe</Farmaco>
+		<PrecioNormal>2500</PrecioNormal>
+		<Precio>1750</Precio>
+		<Descuento>750</Descuento>
+	</producto>
+	<producto>
+		<Farmaco>Aspirina</Farmaco>
+		<PrecioNormal>1200</PrecioNormal>
+		<Precio>950</Precio>
+		<Descuento>250</Descuento>
+	</producto>
+</productos> 
