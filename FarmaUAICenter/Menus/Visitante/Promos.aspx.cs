@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 
 namespace FarmaUAICenter.Menus.Visitante
 {
@@ -7,10 +6,14 @@ namespace FarmaUAICenter.Menus.Visitante
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DataSet ds = new DataSet();
-            ds.ReadXml(Server.MapPath("~/Menus/promociones.xml"));
-            GridView1.DataSource = ds;
-            GridView1.DataBind();
+           
+            if (!IsPostBack)
+            {
+                WebServicePromo ws = new WebServicePromo();
+                var products = ws.GetProducts();
+                GridView1.DataSource = products;
+                GridView1.DataBind();
+            }
         }
 
         protected void Back_Click(object sender, EventArgs e)

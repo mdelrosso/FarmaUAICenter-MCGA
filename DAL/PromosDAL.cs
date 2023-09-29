@@ -33,7 +33,7 @@ namespace DAL
                 {
                     var nameNode = productNode.SelectSingleNode("Farmaco");
                     var normalPriceNode = productNode.SelectSingleNode("PrecioNormal");
-                    var priceNode = productNode.SelectSingleNode("Precio");
+                    var priceNode = productNode.SelectSingleNode("PrecioVenta");
                     var discountNode = productNode.SelectSingleNode("Descuento");
 
                     if (nameNode != null && priceNode != null && discountNode != null)
@@ -47,7 +47,7 @@ namespace DAL
                         {
                             Nombre = name,
                             PrecioNormal = normalprice,
-                            Precio = price,
+                            PrecioVenta = price,
                             Descuento = discount
                         });
                     }

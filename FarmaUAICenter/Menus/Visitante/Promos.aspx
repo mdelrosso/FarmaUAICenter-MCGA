@@ -24,7 +24,7 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceFooter" runat="server">
         <p></p>
-        <h4 style="font-weight:bold;text-align:center;font-style:italic;color:red">Las Promociones activas son publicadas desde un archivo XML</h4>
+        <h4 style="font-weight:bold;text-align:center;font-style:italic;color:red">Las Promociones activas son publicadas desde un WebService</h4>
         
         <hr style="border-color:black"/>
                 <asp:GridView ID="GridView1" runat="server" class="table table-bordered table-hover table-striped">

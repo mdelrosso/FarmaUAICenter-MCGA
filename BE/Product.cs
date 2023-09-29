@@ -11,7 +11,7 @@ namespace BE
         public string Nombre { get; set; }
         public decimal PrecioNormal { get; set; }
 
-        public decimal Precio { get; set; }
+        public decimal PrecioVenta { get; set; }
         public decimal Descuento { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace FarmaUAICenter.Menus.Visitante
 {
 
 
-    public partial class Contatco
+    public partial class Cliente
     {
 
         /// <summary>
@@ -21,7 +21,7 @@ namespace FarmaUAICenter.Menus.Visitante
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b1;
+        //protected global::System.Web.UI.WebControls.Button b1;
 
         /// <summary>
         /// Propiedad Master.
@@ -29,12 +29,6 @@ namespace FarmaUAICenter.Menus.Visitante
         /// <remarks>
         /// Propiedad generada automáticamente.
         /// </remarks>
-        public new FarmaUAICenter.M1 Master
-        {
-            get
-            {
-                return ((FarmaUAICenter.M1)(base.Master));
-            }
-        }
+        
     }
 }
